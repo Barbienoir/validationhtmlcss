@@ -1,0 +1,28 @@
+@media (max-width: 768px) {
+    .nav-unn{
+        display:none;
+    }
+    .photo1 img{
+        width: 100%;
+    }
+    /* collection */
+    .container-trois{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+     .left{
+        width: 50%;
+     }
+     .right{
+        width: 50%;
+     }
+     txt-5{
+        display: block;
+        flex-direction: column;
+     }
+     .container-cinq{
+        margin-top: 40px;
+     }
+
+}
