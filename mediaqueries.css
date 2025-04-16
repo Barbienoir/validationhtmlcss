@@ -1,28 +1,134 @@
-@media (max-width: 768px) {
-    .nav-unn{
+@media screen and (max-width: 740px) {
+    .nav-un{
         display:none;
     }
+
+    .galleries{
+      display: flex;
+      flex: 1;
+      justify-content: center;
+   }
     .photo1 img{
         width: 100%;
+        max-width: 300px;
     }
+    .navdeux{
+      display: flex;
+      flex-direction: column;
+    }
+    
+    .new-arrivage h1, p{
+      text-align: center;
+    }
+    .circle{
+      display: none
+     }
     /* collection */
-    .container-trois{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-     .left{
-        width: 50%;
+     .container-deux-h1{
+      font-size: 22px;
+      }
+      .container-deux-p{
+          font-size: 10px;
+      }
+
+     .container-trois .left .superposé img{
+      width: 250px;
+      height: auto;
      }
-     .right{
-        width: 50%;
-     }
-     txt-5{
+     .txt-5{
         display: block;
         flex-direction: column;
+        justify-content: center;
      }
-     .container-cinq{
-        margin-top: 40px;
+     .container .texte{
+      font-size: 15px;
+      text-align: center;
      }
+     .container-trois{
+      display: block;
+      justify-content: center;
+      align-items: center;
+      
+      }
+  .left img{
+   width:100vw;
+   height: 100vh;
+  }
+  .container-quatre{
+   display: block;
+   justify-content: center;
+   padding: 30px;
+  }
+  .container-quatre p {
+   max-width: 200px;
+  }
+  .section-4 h2{
+   font-size: 14px;
+}
+.section-4 p{
+   font-size: 8px;
+   
+}
+
+#img2{
+   position: absolute;
+   width: 180px;
+   height: 150px;
+}
+  .txt-4 h1{
+   
+   font-size: 20px;
+   }
+   .txt-4 p{
+       text-align: center;
+       font-size: 10px;
+      
+       }
+  .container-cinq{
+   margin-bottom: -40px;
+   display: block;
+  }
+  .container-cinq .left p{
+   max-width: 200px;
+   font-size: 10px;
+   }
+   .container-cinq .left h2{
+      max-width: 200px;
+      font-size: 20px;
+      }
+      .container-cinq .right img{
+         max-width: 300px;
+         height: auto;
+         
+     }
+     /* About us */
+     .grid{
+      display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+     }
+     .image2 h1{
+      font-size: 30px;
+   }
+   .redcard{
+
+      display: flex;
+      /* flex-wrap: wrap; */
+      flex-direction: column;
+   }
+   hears{
+      display: flex;
+      flex-direction: column;
+  }
+  .hear{
+   display: block;
+  }
+  .G-chisma{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;}
+   /* .chrisma-photo{
+      width:100px;
+      height: auto;} */
 
 }
